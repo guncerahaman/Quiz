@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+   
+<title>Learn English Phonics</title>
+<link href="../style.css" rel="stylesheet" />
+</head>
+
+<body>
+    <nav><header><nav><a href="../index.html">Home</a><a href="../alifba/alifba.html">Alif ba</a><a href="phonics.html">Jolly Phonics</a></nav> 
+        <span>Quiz 4 Kids</span></header></nav> 
+  <main>
+        <h2 id="title">Learn English Phonics - Jolly Phonics</h2>
+        <div id="video">
+            <h2>Reward Time!!!</h2>
+        <p>Reward frames should be inserted here, rewards are given after 5 answers if correct answers are greater than wrong answers.Reward frame will disappear after 5 minutes. </p>  
+        <button id="skip">Skip reward and continue</button>
+        </div>
+        <div id="letter">
+            <p>Correct answers: <label id="cor">0</label></p>
+            <p>Wrong answers: <label id="wro">0</label></p>
+         <label id="qu" style="display: none;"></label>
+            <img id="listen"src="listen.png" width="50"><br>
+
+            <audio id="audio" src="">
+            </audio>
+
+            <button id="question" class="btn">Start Game</button>
+
+            <div id="letterbox">
+
+                <div class="imgbox"><label id="answer1"></label></div>
+                <div class="imgbox"><label id="answer2"></label></div>
+                <div class="imgbox"><label id="answer3"></label></div>
+                <div class="imgbox"><label id="answer4"></label></div>
+            </div>
+            <label id="msg" style="background-color:red; font-size: 2rem;"></label><br>
+            <button id="btn" class="btn">Next Question</button>
+            <button class ="btn" id="restart" onclick="window.location.reload();">Play Again</button>
+        </div>
+    </main>
+    <footer><a href="http://www.guncerahaman.co.uk" target="_blank">Please visit my portfolio for more details. </a></main></body>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
